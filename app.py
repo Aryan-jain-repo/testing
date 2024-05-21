@@ -116,9 +116,6 @@ elif selected == "Recommendations":
             cols = st.columns(5)
             for i, col in enumerate(cols):
                 col.text(recommended_movie_names[i])
-                if col.button('Watch Trailer', key=f"trailer{i}"):
-                    trailer_url = get_trailer(recommended_movie_names[i])
-                    st.video(trailer_url)
                 col.image(recommended_movie_posters[i])
                 movie_data = movie_details[i]
                 col.write(f"Release date: {movie_data['date']}")
