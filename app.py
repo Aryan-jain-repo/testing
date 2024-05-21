@@ -102,12 +102,6 @@ if selected == "Welcome":
                 Just select a movie you like, and we'll suggest similar movies for you to enjoy.<br>
                 You can also watch trailers directly from our app!
             </div>
-            <div class="carousel">
-                <img src="https://image.tmdb.org/t/p/w500/path_to_movie_poster1.jpg" alt="Movie Poster 1">
-                <img src="https://image.tmdb.org/t/p/w500/path_to_movie_poster2.jpg" alt="Movie Poster 2">
-                <img src="https://image.tmdb.org/t/p/w500/path_to_movie_poster3.jpg" alt="Movie Poster 3">
-                <img src="https://image.tmdb.org/t/p/w500/path_to_movie_poster4.jpg" alt="Movie Poster 4">
-            </div>
         </div>
         """, unsafe_allow_html=True
     )
@@ -153,9 +147,9 @@ elif selected == "Contact":
         """
         <div style="text-align: center;">
             <p style="font-size: 20px;">You can also find me on:</p>
-            <p><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></p>
-            <p><a href="https://github.com/your-profile" target="_blank">GitHub</a></p>
-            <p><a href="mailto:your-email@example.com">Email</a></p>
+            <p><a href="https://www.linkedin.com/in/Pushp-raj-gour" target="_blank">LinkedIn</a></p>
+            <p><a href="https://github.com/pushpraj-gour" target="_blank">GitHub</a></p>
+            <p><a href="mailto:rajrjpushp@gmail.com">Email</a></p>
         </div>
         """, unsafe_allow_html=True
     )
